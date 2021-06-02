@@ -561,3 +561,25 @@ ls
 git status
 git commit -m "awx"
 reboot
+docker ps -a
+git status
+git commit -m "added awx under git"
+git add .
+git commit -m "added awx under git"
+git status
+cd awx
+git add .
+git status
+git commit -m "add all file"
+git status
+cd ..
+git status
+git commit -m "add this new file"
+git commit -a
+ls
+git status
+cd awx
+ls
+git status
+ls
+exit

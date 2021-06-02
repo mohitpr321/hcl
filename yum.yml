@@ -1,0 +1,9 @@
+---
+- name: Install to httpd packages
+  hosts: all
+  become: true
+  tasks:
+  - name: yum packages is installing
+    yum: 
+      name: httpd
+      state: present
